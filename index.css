@@ -1,0 +1,431 @@
+html
+{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root
+{
+  --my_menu-height:50px;
+}
+body { 
+  background-image: url("assets/images/img1.jpg");
+  height: auto;
+  max-width: 100%;
+  margin-top: 80px;
+  overflow: hidden;
+  background-position: center center;
+  -webkit-background-size:cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.fimage1
+{
+  display: flex;
+  letter-spacing:0.7em;
+  font-size: 48px;
+  text-align: center;
+  color:white;
+  font-family: 'Work Sans', sans-serif;
+  flex-direction: column;
+
+}
+#image_text1
+{
+  letter-spacing:0.5em;
+  font-size: 20px;
+}
+
+#text-image1
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  font-size: 60px;
+  color: white;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 0.1rem;
+}
+#image_text1
+{ 
+  margin-left: 50px;
+}
+
+  .description
+  {
+      text-align: center;
+      padding-top:40px;
+      font-family: 'IM Fell Great Primer',italic,cursive;
+      color: #123456;
+  }
+  .video_option::before
+  {
+    top: 0;
+    max-width: 100%;
+    height:auto;
+    display: flex;
+
+  }
+
+.song_name
+{
+  display: flex;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 40px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 50px;
+  /* letter-spacing: 0.2em; */
+  
+}
+.album_audio
+{
+  padding-bottom: 60px;
+}
+.song_name1
+{
+  display: flex;
+  font-size: 20px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding-left: 30px;
+}
+.audio_text1
+{
+  display: flex;
+  text-align: center;
+  padding-top: 90px;
+  padding-left: 80px;
+  padding-bottom: 40px;
+  width: 100%;
+  font-size: 30px;
+}
+.new1
+{
+  color: white;
+  width: 100px;
+}
+.music_video
+{
+  background-image: url('assets/images/bg1.webp');
+  width: 100%;
+  
+}
+.rounded float-left
+{
+  max-width: 100%;
+  height: auto;
+}
+.music_audio
+{
+  background-image: url('assets/images/bg2.webp');
+  width: 100%;
+}
+#column {
+  float: left;
+  width: 50%;
+  height: 800px; 
+}
+.row
+{
+  display: flex;
+  opacity: 0.613;
+  visibility: inherit;
+}
+.album
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 700px;
+  transform:translate(0px,300p);
+  padding-top: 60px;
+
+}
+.album_audio
+{
+  padding-left: 100px;
+  width: 100%;
+  height: 700px;
+  transform:translate(0px,300p);
+
+}
+.album_audio
+{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.album_audio img
+{
+  height: 600px;
+}
+
+.music_video h1 {
+  text-align:center;
+  margin: 0 0 50px;
+  padding: 0;
+  font-size: 40px;
+  color: #fff;
+}
+.album p
+{
+  word-wrap: break-word;
+  padding: 0px;
+}
+.row::before{
+  content: "";
+  display: table;
+  clear: both;
+}
+.block_transform
+{
+  transform: translate(0,750px);
+  display: flex;
+  width: 100%;
+  align-items: center;
+  opacity: 0,4;
+}
+.contact_us
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 720px;
+  opacity: 0.613;
+  visibility: inherit;
+  background-color:#292327;
+  margin-top: -51.5px;
+  transform: translate(0,800px);
+  height: 1500px;
+}
+.input_mail
+{
+  width: 30%;
+  margin-left: 500px;
+  display: flex;
+  align-items: center;
+}
+.form__field
+{
+  width: 400px;
+}
+img
+{
+  width: 500px;
+  height: 350px;
+  padding-top: 0px;
+  padding-left: 55px;
+}
+.form_text
+{
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 100;
+  padding-top: 200px;
+  letter-spacing: 3px;
+}
+.form_para
+{
+  text-align: center;
+  color: white;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 100;
+  overflow: hidden;
+  margin-top: 0ch;
+  top: 0;
+}
+
+.song_info
+{
+  font-family:'Montserrat', sans-serif;
+  font-size: 25px;
+  background-image: url('assets/images/bg2.webp');
+  opacity: 1;
+}
+.song_info1
+{
+  font-family:'Montserrat', sans-serif;
+  font-size: 20px;
+  padding-left: 110px;
+  margin-top:0;
+  width: 100%;
+  background-image: url('assets/images/bg2.webp');
+}
+audio
+{
+  display: flex;
+  margin-left: 30px;
+  margin-top: -20px;
+  height: 100px;
+  width: 500px; 
+}
+.songs
+{
+  margin-left: 54.7px;
+  width: 126%;
+  margin-top: -22px;
+}
+.form__field {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid;
+  font-size: 1.3rem;
+  color: white;
+  padding-left: 500px;
+  background: transparent;
+  /* transition: border-color 0.2s; */
+}
+.input_mail
+{
+  width: 30%;
+  margin-left: 500px;
+
+}
+.btn1
+{
+  width: 300px;
+  margin: 40px;
+  margin-left: 80px;
+  height: 80px;
+  background-color: black;
+  opacity: 0.613;
+  color: white;
+  font-size: 30px;
+  font-family: 'Montserrat';
+}
+.footer_text
+{
+  color: white;
+  margin-top:  100px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+.audio_player
+{
+  height: 40px;
+  width: 500px;
+  opacity: 0.6;
+}
+@media screen and (max-width: 600px) {
+  .my-menu a:not(:first-child) {display: none;}
+  .my-menu a.icon {
+    float: right;
+    display: block;
+  }
+}
+iframe
+{
+  width:500px;
+  height:300px;
+}
+nav
+{
+  height: 60px;
+  width: 100%;
+  background-color: black;
+  /* opacity: 0.6; */
+}
+nav ul
+{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li
+{
+  display: inline-block;
+  line-height: 80px;
+  margin-top:  -10px;
+}
+nav ul li a
+{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+a.active,a:hover
+{
+  transition: 0.5s; 
+}
+nav li a
+{
+  text-decoration: double;
+}
+.checkbtn
+{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  display: none;
+  padding-top: 20px;
+}
+
+#check
+{
+  display: none;
+}
+
+@media (max-width:952px){
+  nav ul li a
+  {
+    font-size: 16px;
+  } 
+}
+@media (max-width:858px){
+  .checkbtn
+  {
+    display: block; 
+  } 
+  ul
+  {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 50;
+    background-color: black;
+    left:-100%;
+    text-align: center;
+    transition: all .5s;
+    justify-content: center;
+  }
+  nav ul li
+  {
+    display: block;
+  } 
+  nav ul li a
+  {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .text-image1
+  {
+    display: none;
+  }
+  #check:checked~ul 
+  {
+    left:0;
+  
+  }
+  
+}
+

@@ -1,0 +1,183 @@
+html
+{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.text-image
+{
+  display: block;
+  padding-left: 30px;
+}
+#text-image1
+{
+  margin-left: 20px;
+  margin-top: -50px;
+  height: 300px;
+}
+#image_text1
+{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3px;
+}
+.row
+{
+  flex-direction: column;
+}
+.album
+{
+  background-image: url('assets/images/bg1.webp');
+  width: 100vh;
+}
+.row
+{
+  width: 100%;
+}
+@media screen and (max-width:950px) {
+  .album,.album_audio, .album p, .song_name1
+  {
+    width: 60vh;
+    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+}
+
+.music_video
+{
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-bottom: auto;
+}
+.album_audio
+{
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+.album_audio img
+{
+  height: 300px;
+  margin-left:-175px;
+  width: 350px;
+}
+.video
+{
+  display: flex;
+  flex-direction: column;
+}
+iframe
+{
+  width: 75%;
+  height: 200px;
+  margin-left: auto;
+  padding-left: 50px;
+  opacity: 1;
+  margin-right: auto;
+
+}
+#column {
+  float: left;
+  width: 150vh;
+  height: 800px; 
+}
+.album p
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+.audio_text1
+{
+  display: block;
+  float: left;
+  width: 100%;
+  margin-left: -80px;
+  padding-bottom: 2px;
+  padding-top: 50px;
+  text-align:left;
+  padding-right: 20px;
+  word-wrap:break-word;
+
+}
+.song_name1
+{
+  margin-left: auto;
+  word-wrap: break-word;
+  font-size: 20px;
+}
+.song_name
+{
+  margin-right:-10px;
+  text-align:left;
+  font-size: 10vw;
+  text-align: center;
+  width: 100%;
+}
+.row::before{
+  content: "";
+  display: flex;
+  clear: both;
+}
+.audio_text 
+{
+  
+  height: 30px;
+  font-size: 10vw;
+  display: flex;
+  justify-content: center;
+ 
+}
+audio
+{
+  margin-left: -100px;
+  padding-left: 20px;
+  display: block;
+  float: left;
+  width: 50vh;
+}
+.form__field
+{
+  padding-left: 0;
+  margin-right: auto;
+  float: left;
+  color: white;
+  align-items: flex-start;
+}
+.col-25 {
+  float: left;
+  width: 20%;
+  margin-top: 60px;
+}
+@media screen and (max-width: 700px) {
+  .input_mail
+  {
+    width: 60vh;
+    height: 200px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+  }
+}
+
+.btn1
+{
+  width: 200px;
+  margin: 40px;
+  margin-left: 80px;
+  height: 80px;
+  background-color: black;
+  opacity: 0.613;
+  color: white;
+  font-size: 30px;
+  font-family: 'Montserrat';
+}
+.row
+{
+  opacity: 1;
+}

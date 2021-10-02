@@ -1,0 +1,113 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" media="screen and (max-width:1100px)" href="phone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap" rel="stylesheet">
+    <link href='https://css.gg/play-button-o.css' rel='stylesheet'>
+    <link href='https://css.gg/play-pause-o.css' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Mix</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+</style>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check" onclick="myFunction()">
+        <label for="check" class="checkbtn">
+            <i class="fa fa-bars"></i>
+        </label>
+        <ul>
+            <li><a class="active" href="#home">HOME</a></li>
+            <li><a href="#colors">MUSIC</a></li>
+            <li ><a href="#portfolio">VIDEO</a></li>
+            <li> <a href="#blog">PHOTOS</a></li>
+            <li><a href="#pages">NEWSLETTER</a></li>
+        </ul>
+    </nav>
+    <div class="text-image1" id="text-image1">
+        <p>MIKA GREER NASH</p>
+        <p class="text-image1" id="image_text1">MUSICIAN & SONGWRITER</p>
+        </p>
+    </div>
+    <section class="block_transform">
+        <div class="row" style="opacity: 1;">
+            <div class="music_video col-lg-6" id="column" style="visibility: inherit;">
+                <div class="album" class="col">
+                    <p class="song_name" style="text-align: center;">
+                        MY VIDEO FOR<br />
+                        "POWER"
+                    </p>
+                    <p class="song_name1">
+                        Little Mix are a British girl group composed of members Jade Thirlwall,Perrie Edwards, and
+                        Leigh-Anne Pinnock,former member Jesy Nelson left the group in December 2020.
+                    </p>
+                    <div id="video_option" controls>
+                        <div class="embed-responsive embed-responsive-21by9">
+                            <iframe class="embed-responsive-item " autoplay="false"
+                                src="assets/video/Little Mix - Power (Official Video) ft. Stormzy.webm"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="music_audio col-lg-6" style="visibility: inherit;">
+                <div class="album_audio">
+                    <p class="audio_text1"> NEW RELEASE SONG AUDIO </p>
+                    <img src="assets/images/album.jpg" alt="abc">
+                    <audio controls preload="metadata">
+                        <source src="assets/audio/Little Mix _ Power ft. Stormzy _ (Single Version).mp3"
+                            type="audio/ogg" style="width: 100%;">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <div class="contact_us">
+        <div class="full_form">
+            <p class="form_text"> JOIN MY MAILING LIST</p>
+            <p class="form_para" style="font-size: 20px;" !important>For news and updates, please enter your email here:
+            </p>
+            <div class="input_mail">
+               <div><input type="text" name="mail" class="form__field" placeholder="   Enter your mail">
+               </div> 
+                <button class="btn1">SUMBIT</button>
+            </div>
+        </div>
+        <footer class="footer_text">
+            © 2023 by MIKA GREER NASH. Proudly created with Newton School
+        </footer>
+    </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(window).scroll(function () {
+            var scrollTop = $(this).scrollTop();
+
+            $('.row').css({
+                opacity: function () {
+                    var elementHeight = $(this).height();
+                    return 1 - (elementHeight - scrollTop) / elementHeight;
+                }
+            });
+        });
+  </script>
+
+</body>
+
+</html>
